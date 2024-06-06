@@ -288,16 +288,22 @@ Success...output displayed without any errors
 The search option was also working fine
 
 1535
-Part 8 - Add a new field
+Part 8 
+Add a new field
 Added a rating property to the movie model
-Updated the bind attribute for both the edit and create option to include rating property
-Edited index.cshtml to add rating field
-Updated in create.cshtml as well
-Modified in the seeddata class file to create a new column for each movie
+Updated the bind attribute for both the edit and create options to include rating property
+
+1538
+Edited index.cshtml to adding rating field
+Updated in create.cshtml 
+Modified in the SeedData class file to create a new column for each movies
+
+1545
 Again initiated the NuGet package manager
 Rating field added
+Run the application without any error
 https://localhost:7177/Movies
-It is successful :)
+successful :)
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end part 8>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -334,5 +340,43 @@ it displays an error message.
 All good:)
 Completed:)
 Happy Happy..... :)
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+
+2024-06-03
+1537
+Creted a account on the github
+ohho there is validation and all... 
+haha.. successfully logged in
+
+2024-06-06
+1415
+Need to create the repository in git
+went to menu bar and selected git
+selected create a new repository
+and login to the git
+successfully added the repository:)
+
+1430
+Edited the SeedData.cs code
+added 5 new movies by replacing the existing one 
+modified the code
+
+1442
+Successfully ran the code
+haha.. there is no error :)
+
+1445
+Output showed as old one
+so deleted the movies manually on the browser 
+came back to application
+
+1450
+run the application again
+Awww.. now the output changed with my new movies
+All good:)
+https://localhost:7177/Movies
+
+
+
 
 

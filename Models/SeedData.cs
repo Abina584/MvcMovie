@@ -22,35 +22,43 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "When Harry Met Sally",
-                    ReleaseDate = DateTime.Parse("1989-2-12"),
-                    Genre = "Romantic Comedy",
-                    Rating = "R",
-                    Price = 7.99M
-                },
-                new Movie
-                {
-                    Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
-                    Genre = "Comedy",
+                    Title = "Evil Dead Rise",
+                    ReleaseDate = DateTime.Parse("2023-4-21"),
+                    Genre = "Horror",
                     Rating = "R",
                     Price = 8.99M
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters 2",
-                    ReleaseDate = DateTime.Parse("1986-2-23"),
-                    Genre = "Comedy",
+                    Title = "After Everything",
+                    ReleaseDate = DateTime.Parse("2023-9-13"),
+                    Genre = "Romance",
                     Rating = "R",
-                    Price = 9.99M
+                    Price = 6.78M
                 },
                 new Movie
                 {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
+                    Title = "Oppenheimer",
+                    ReleaseDate = DateTime.Parse("2023-8-28"),
+                    Genre = "Comedy",
                     Rating = "R",
-                    Price = 3.99M
+                    Price = 9.12M
+                },
+                new Movie
+                {
+                    Title = "Avatar: The Way to Water",
+                    ReleaseDate = DateTime.Parse("2022-11-2"),
+                    Genre = "Action",
+                    Rating = "R",
+                    Price = 7.87M
+                },
+                new Movie
+                {
+                    Title = "Barbie",
+                    ReleaseDate = DateTime.Parse("2023-7-21"),
+                    Genre = "Fantasy",
+                    Rating = "R",
+                    Price = 7.67M
                 }
             );
             context.SaveChanges();
