@@ -1,0 +1,338 @@
+﻿2024-05-16
+ABINA SOMAN
+0147 EDT
+0856693
+
+1345
+Recreated the ASP.NET MVC Core application
+Using .NET 7 without using authentication
+
+1355
+Successfully ran the program 
+Output was displayed in the chrome browser
+https://localhost:7177
+The page displayed "Welcome"
+
+1401
+Edited the View to add MvcMovie
+https://localhost:7177
+Output was displayed "MVC MOVIE"
+
+1405
+Successfully added controller and modified the code
+After running program, the browser opened
+In the browser URL, changed the URL to https://localhost:7177/helloworld
+It displayed "This is my page..."
+
+In the browser URL, changed the URL to https://localhost:7177/helloworld/welcome
+It displayed "Welcome to hello World..."
+
+
+1442
+Added parameters to the welcome method 
+Gave inputs to the URL to get the output as below
+https://localhost:7177/helloworld/welcome?name=Abina&numtimes=1
+It displayed "Hello Abina , NumTimes is: 1"
+
+
+1520
+Modified the parameters and get the output as below
+https://localhost:7177/helloworld/welcome/0856693?name=Abina
+It displayed "Hello Abina, ID: 856693"
+<<<<<<<<<<<<<<<<<<<<<<<<<<<End Part 2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+2024-05-17
+PART 3
+
+1402
+Opened the existing project to create the views
+Created a new by Right-clicking on the Views folder, and then Add > New Folder and name the folder HelloWorld.
+Right-clicked on the Views/HelloWorld folder, and then Add > New Item.
+In the search box in the upper-right, entered view
+Select Razor View - Empty
+named the value as Index.cshtml. 
+all good:)
+
+1410
+Edited the HelloWorldController.cs file
+Edited by adding the new editions to the previous code
+The method IActionResult was changed 
+Also made the existing code to comment to remove from action
+
+
+1415
+Modify the Views/Helloworld/index.cshtml
+Successfully ran the URL to got the output
+https://localhost:7177/helloworld
+woww.. It displayed the heaqding as "Index" and paragraph as "Hello from my View Template!"
+Tested.. All good:)
+
+1420
+Select the menu links MvcMovie, Home, and Privacy. Each page shows the same menu layout. 
+The menu layout is implemented in the Views/Shared/_Layout.cshtml file.
+Opened the file
+Need to modify the code by changing three instances of MvcMovie
+Successfully completed the necessary changes in the layout 
+Header and footer got changed as "Movie App"
+Tested.. All good:)
+
+1430
+Saved the changes and select the Privacy link. 
+wow..
+Noticed how the title on the browser tab displays Privacy Policy - Movie App instead of Privacy Policy - MvcMovie
+https://localhost:7177/home/privacy
+
+1435
+Edited the view index file
+Successfully Made changes to "Viewdata" title to movie "List"
+Also made the changes in the header to display on the webpage
+
+1438
+The viewData dictionary is a dynamic object, which means any type can be used
+The viewdata dictionary has no defined properties
+
+1440
+Created the welcome page in the helloworld
+Modified the code 
+Enter the URL
+https://localhost:7177/helloworld/welcome?name=Abina&numtimes=1
+Wow.. all good:)
+Part 3 ended....:)
+
+2024-05-18
+Part 4
+1530
+Started working on the model
+Right-click the Models folder > Add > Class. Name the file Movie.cs
+Successfully added the code exactly as the code given
+All good:)
+
+1540
+Compiled the code to check for errors
+It ran without any errors
+wow.. That's nice..!
+
+1550
+From the Tools menu, select NuGet Package Manager > Package Manager Console
+It takes time...
+
+1600
+Opened the package manager console and copied the codes to the initiate the migration
+Succesfully created the Scaffolding Items
+Added the Package manager console 
+Added MVC controller with views entity framework
+Dowloading the Scaffoldingpackages
+Oops.. It takes time..
+Still downloading..
+Thank god.. It completed..
+
+1605
+Modified the code
+and run the URL
+20240523195613_InitialCreate.cs
+https://localhost:7177/movies
+<<<<<<<<<<<<<ended>>>>>>>>>>>>>
+
+2024-05-27
+1400
+Part 5
+Deleted the database which i cretaed to do the next part
+
+1401
+Creatde a new class named SeedData in the Models folder.
+Replaced the generated code
+modified the code
+
+1404
+Opened the program.cs 
+Edited the contents of Program.cs 
+added some codes 
+
+2024-05-28
+1405
+run successfullyy
+aww the database has been changed with new movies list
+The output was nice :)
+https://localhost:7177/Movies
+Aww part 5 ended
+Happpyy Happyyyy Happyyy:)
+
+1412
+Part 6
+opened the movie.cs file in models folder
+updated the file by adding some codes to the file for changing the display name
+The display name was showing ReleaseDate in without space
+
+1417
+successfully run the code
+ooops.. got an error
+yeah i tried one more time... still error on the seeddata.cs file
+yeahh.. got it... 
+
+1425
+i replaced the SeedData file and movie.cs file codes file one more
+then the error gone..
+now.. got the output
+there is a space came in between the release date
+all good:)
+
+1428
+The Edit, Details, and Delete links are generated by the Core MVC Anchor
+Tag Helper in the Views/Movies/Index.cshtml file.
+
+1430
+Open the Movies controller and examined the two Edit action methods.
+
+1431
+The HttpPost attribute specifies that this Edit method can be invoked only for POST
+
+1434
+Checked with different values in the data field and tried to save 
+OOps.. It was unable to save....
+
+1438
+Tried to enter characters in the Price field
+Then tried to save the file
+I was unable to save the file and was getting error
+It was show error 'The field price must be a number'
+what was thaat??
+
+
+1440
+Part 7
+Now need to add the add the search option in the list
+opened the file MoviesController.cs in the controller folder
+Updated the index method
+Run the application successfully
+opened the link
+https://localhost:7177/Movies?searchString=Ghost
+
+1445
+I searched for 2 times
+got success
+
+2024-05-29
+1447
+Opened the file again MoviesController.cs
+replaced the searchString by id in the index method
+then saved and run the file 
+thankgod.. there is no error:)
+
+1448
+Then opened the browser 
+success...)
+the output showed 2 movie name as per the code
+https://localhost:7177/movies/index/ghost
+
+1452
+Again opened the file MovieController.cs file
+Changed the id to searchString to the normal form.
+
+2024-05-30
+1455
+Opened the Views/Movies/Index.cshtml file
+updated the code by adding the <form> markup at the beginning
+run the application
+ohh there is a error..:(
+aww.. I solved it...
+by mistakenly I repeated the same steps 2 times..
+but it takes 2 minutes to realise that
+now problem solved
+
+1500
+run the code successfully
+aww.. the filter came 
+and i successfully filtered the movie
+nice.. It works.. I like that
+https://localhost:7177/Movies
+
+1510
+https://localhost:7177/Movies
+
+inorder to get the output in HTTPpost
+made the changes to file Movies/index.cshtml
+
+1515
+Saved the files without errors
+Ran the outputin the browsers and got the link when u try the search
+https://localhost:7072/Movies?SearchString=ghost
+
+1520
+Moving to add search by genre option in the application
+
+1524
+Added a new class to the models folder
+The name of the new class is MovieGenreViewModel 
+
+1525
+Opened the file and added the new code to the file
+Then saved the file
+The file saved without any errors
+
+1528
+Then opened MoviesController.cs 
+Editted the index.cshtml file
+
+1531
+Then editted the file Views/Movies/Index.cshtml
+Then added the code to show the view for the search 
+Then editted the controller part
+Also the class=table part in the header
+Also made some changes in the body part
+
+1532
+Saved the file without any errors
+Ran the application
+Success...output displayed without any errors
+The search option was also working fine
+
+1535
+Part 8 - Add a new field
+Added a rating property to the movie model
+Updated the bind attribute for both the edit and create option to include rating property
+Edited index.cshtml to add rating field
+Updated in create.cshtml as well
+Modified in the seeddata class file to create a new column for each movie
+Again initiated the NuGet package manager
+Rating field added
+https://localhost:7177/Movies
+It is successful :)
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end part 8>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+2024-05-01
+1215
+Part 9
+Need to add the validation
+
+1216
+Modified the code in Movie.cs
+Successfully added the validation rules
+
+1225
+Added requird validation for the string length for the Id
+Added the range for currency
+added string length for genre
+aww.. all good
+
+1245
+Successfully run the program
+Aww... there is no error
+All good:)
+
+1248
+Going to test the validation
+Opened Create New link to add a new movie. 
+
+1250
+Filled out the form with some invalid values. 
+wow.. It's working
+As soon as jQuery client side validation detects the error
+it displays an error message.
+All good:)
+Completed:)
+Happy Happy..... :)
+
+
