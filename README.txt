@@ -338,6 +338,15 @@ wow.. It's working
 As soon as jQuery client side validation detects the error
 it displays an error message.
 All good:)
+
+1304
+Part 10
+Examining the Details and Delete Methods
+Opened the Movie controller 
+
+1307
+examined the Details method
+examined the Delete and DeleteConfirmed methods
 Completed:)
 Happy Happy..... :)
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
@@ -375,6 +384,22 @@ run the application again
 Awww.. now the output changed with my new movies
 All good:)
 https://localhost:7177/Movies
+
+1457
+After commited the file and then pushed the updates to the Github.
+completed:)
+<<<End>>>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
